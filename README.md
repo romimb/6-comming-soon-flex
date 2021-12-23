@@ -1,6 +1,6 @@
-# Coming soon
+# Coming soon-Flex
 
--coming-soon website project_
+-coming-soon website project\_
 
 This project is for **educational** porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
@@ -16,6 +16,7 @@ Design: [Coming soon](https://discord.com/channels/571393319201144843/8502455338
 -   CSS animation
 -   FontAwesome icons
 -   Responsive design
+-   Flex
 
 ## Authors
 

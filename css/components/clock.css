@@ -1,33 +1,29 @@
 .clock {
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 0;
     width: 100%;
     color: #fff;
 }
 
 .clock > .time {
-    width: 25%;
-    float: left;
-    margin: 15px 0;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .clock > .time > .value {
-    display: inline-block;
-    width: 100%;
     font-family: cursive;
     font-size: 50px;
     font-weight: bold;
 }
 
 .clock > .time > .title {
-    display: inline-block;
-    width: 100%;
     text-transform: uppercase;
 }
 
-@media (max-width: 480px){
+@media (max-width: 480px) {
     .clock > .time {
-        width: 50%;
+        min-width: 50%;
     }
 }
-
